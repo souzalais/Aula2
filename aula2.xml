@@ -7,8 +7,9 @@
 		<BusName>Bus 1</BusName>
 </location>
 	</Season>
-	<location>Texas	</location>
-	<BusName>Bus 2</BusName>
+	<location>Texas	
+		<BusName>Bus 2</BusName>
+	</location>
 	
 	<RED>
 		<BusType>Volvo
