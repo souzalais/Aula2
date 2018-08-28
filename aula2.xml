@@ -1,46 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
 <ACM_BUS_SERVICE>
-<October>
-	<Season>Winter
-	<location>Kansas
-		<BusName>Bus 1</BusName>
-</location>
-	</Season>
-	<location>Texas	
-		<BusName>Bus 2</BusName>
-	</location>
-	
-	<RED>
-		<BusType>Volvo
-			<BusCount>10</BusCount>
-		</BusType>
-		
-		<BusType>Chevy
-			<BusCount>7</BusCount>
-		</BusType>
-		
-	</RED>
-	<GREEN>
-		<BusType>Volvo
-			<BusCount>11</BusCount>
-		</BusType>
-		
-		<BusType>Chevy
-			<BusCount>9</BusCount>
-		</BusType>
-		
-	</GREEN>
-	<BLUE>
-		<BusType>Ford
-			<BusCount>5</BusCount>
-		</BusType>
-		
-		<BusType>Chevy
-			<BusCount>6</BusCount>
-		</BusType>
-		
-	</BLUE>
+<month name="october">
+<bus>
+	<season>Winter</season>
+	<location>Kansas</location>
+	<name>bus1</name>
+	<red type="Volvo" count="10"></red>
+	<green type="Volvo" count="11"></green>
+	<blue type="Volvo" count="5"></blue>
+</bus>
 
-</October>
+<bus>
+<season></season>
+	<location>Texas</location>
+	<name>bus2</name>
+	<red type="Chevy" count="7"></red>
+	<green type="Chevy" count="9"></green>
+	<blue type="Chevy" count="6"></blue>
+</bus>
+</month>
 </ACM_BUS_SERVICE>
+
